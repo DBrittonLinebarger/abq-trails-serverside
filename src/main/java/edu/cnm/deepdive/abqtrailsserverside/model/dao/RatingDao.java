@@ -15,4 +15,5 @@ public interface RatingDao {
  @Query("SELECT * FROM rating")
   LiveData<List<Rating>> getAll();
 
+ 
 }
